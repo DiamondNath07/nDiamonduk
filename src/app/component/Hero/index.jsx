@@ -18,15 +18,15 @@ const Hero = () => {
     <div className="bg-white w-full px-[15%] flex justify-between items-center md:pt-[4%] pt-[15%]">
       <div className="max-w-[640px]">
         <h4 className="text-[#525560] typing-text max-w-[305px]">
-          Diamond Nathaniel 💥 Product Designer
+          Diamond Nicholas 💥 Product Designer
         </h4>
         <p
           className={`text-[#525560] text-xl mt-3 font-semibold text-justify md:text-left md:text-4xl md:font-medium md:mt-2 transition-opacity duration-1000 ${
             isVisible ? 'opacity-100' : 'opacity-0'
           }`}
         >
-          Living in Newcastle, designing features for Quickteller mobile
-          payments using Open Banking systems.
+          Living in Newcastle, designed features for Quickteller mobile payments
+          using Open Banking systems.
         </p>
         <p
           className={`text-[#525560] text-justify md:text-left md:text-base  mt-2 transition-opacity duration-1500 ${
