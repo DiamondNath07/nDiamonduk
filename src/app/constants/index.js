@@ -15,12 +15,12 @@ export const navLinks = [
 export const cardContent = [
   {
     id: 1,
-    companyName: 'Wollette',
-    project: 'Smart Mobile payment system',
+    companyName: 'Heritage Properties',
+    project: 'A dynamic housing system',
     description:
-      'Underpinned by Open Banking technology and robust consumer authentication, our solution allows merchants to securely accept payments, minimize fraud, and reduce processing fees. It also enables consumers to make secure payments both online and offline through our innovative payment app. We are transforming the payment experience for merchants and consumers with our cutting-edge payment platform.Powered by Open Banking technology and robust consumer authentication, our solution empowers merchants to securely accept payments while minimizing fraud and reducing processing fees.For consumers, our innovative payment app enables secure transactions both online and offline, offering convenience and peace of mind.We are revolutionizing the payment experience for both merchants and consumers through our cutting-edge payment platform.',
-    image: './images/company1.png',
-    link: '/casestudies/wollette',
+      'The housing project offers a unique blend of modern architecture and eco-friendly design, featuring spacious layouts with smart home technology. Nestled in a prime location, it boasts stunning views, access to green spaces, and energy-efficient amenities. With its sustainable building materials and luxurious finishes, this property stands out as a perfect balance between luxury and environmental consciousness.',
+    image: './images/heriEstage.png',
+    link: '/casestudies',
   },
 
   {
@@ -28,27 +28,27 @@ export const cardContent = [
     companyName: 'Talstrike',
     project: 'Sport platform application',
     description:
-      'Underpinned by Open Banking technology and robust consumer authentication, our solution allows merchants to securely accept payments, minimize fraud, and reduce processing fees.It also enables consumers to make secure payments both online and offline through our innovative payment app. We are transforming the payment experience for merchants and consumers with our cutting-edge payment platform.Powered by Open Banking technology and robust consumer authentication, our solution empowers merchants to securely accept payments while minimizing fraud and reducing processing fees.For consumers, our innovative payment app enables secure transactions both online and offline, offering convenience and peace of mind.We are revolutionizing the payment experience for both merchants and consumers through our cutting-edge payment platform.',
+      'A platform created to seamlessly integrate the world of sports into the social media landscape, creating a dynamic platform that not only fosters talent discovery but also builds a community where athletes, coaches, and sports enthusiasts feel truly connected. By leveraging social media vast reach, we aim to spotlight emerging talent and provide a space where sports practitioners can engage with one another, share insights, and showcase their skills. Additionally, the platform will feature entertaining and engaging sports-related content that keeps users informed and inspired, turning social media into a virtual home for all things sports, where passion and professionalism unite.',
     image: './images/company3.png',
-    link: '/casestudies/talstrike',
+    link: '/casestudies',
   },
   {
     id: 3,
     companyName: 'Swiftpoint',
     project: 'Fintech bill payment application',
     description:
-      'Underpinned by Open Banking technology and robust consumer authentication, our solution allows merchants to securely accept payments, minimize fraud, and reduce processing fees.It also enables consumers to make secure payments both online and offline through our innovative payment app. We are transforming the payment experience for merchants and consumers with our cutting-edge payment platform.Powered by Open Banking technology and robust consumer authentication, our solution empowers merchants to securely accept payments while minimizing fraud and reducing processing fees.For consumers, our innovative payment app enables secure transactions both online and offline, offering convenience and peace of mind.We are revolutionizing the payment experience for both merchants and consumers through our cutting-edge payment platform.',
+      'Created a globally trusted platform that offers seamless currency exchange, swift and secure transactions, and an intuitive user experience. We strive to provide competitive rates, robust security, and an app environment tailored to user needs, ensuring every transaction is efficient, safe, and aligned with our users best interests. Through innovation and user-focused design, we aim to set a new standard in financial services that empowers individuals to manage their transactions with confidence and ease, no matter where they are in the world.',
     image: './images/company2.png',
-    link: '/casestudies/swiftpoint',
+    link: '/casestudies',
   },
   {
     id: 4,
     companyName: 'Vitality Org',
     project: 'Telehealth medical organisation',
     description:
-      'Underpinned by Open Banking technology and robust consumer authentication, our solution allows merchants to securely accept payments, minimize fraud, and reduce processing fees.It also enables consumers to make secure payments both online and offline through our innovative payment app. We are transforming the payment experience for merchants and consumers with our cutting-edge payment platform.Powered by Open Banking technology and robust consumer authentication, our solution empowers merchants to securely accept payments while minimizing fraud and reducing processing fees.For consumers, our innovative payment app enables secure transactions both online and offline, offering convenience and peace of mind.We are revolutionizing the payment experience for both merchants and consumers through our cutting-edge payment platform.',
+      'A telehealth platform that empowers and supports individuals across the gender spectrum by providing compassionate, accessible, and affirming healthcare services. We are committed to fostering a safe and welcoming environment where all members of the gender-diverse community feel seen, heard, and respected. Through personalized care, experienced professionals, and a deep understanding of unique healthcare needs, we aim to break down barriers and ensure that every person can access high-quality healthcare with dignity and without judgment. Our goal is to promote well-being and acceptance for everyone, regardless of their gender identity or expression.',
     image: './images/company4.png',
-    link: '/casestudies/vitality',
+    link: '/casestudies',
   },
 ];
 

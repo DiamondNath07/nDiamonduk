@@ -50,7 +50,7 @@ const CardStacks = () => {
                 <div className="mt-4 hidden md:block">
                   <Button
                     label="View case study"
-                    onClick={() => handleCaseStudy(index)}
+                    onClick={() => router.push('/casestudies')}
                   />
                 </div>
               </div>
@@ -62,7 +62,7 @@ const CardStacks = () => {
                     text="sm"
                     px={2}
                     py={3}
-                    onClick={() => handleCaseStudy(index)}
+                    onClick={() => router.push('/casestudies')}
                   />
                 </div>
               </div>
