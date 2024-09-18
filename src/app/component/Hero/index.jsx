@@ -2,8 +2,10 @@
 
 import React, { useEffect, useState } from 'react';
 import Button from '../button';
+import { useRouter } from 'next/navigation';
 
 const Hero = () => {
+  const router = useRouter();
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
@@ -41,7 +43,11 @@ const Hero = () => {
             isVisible ? 'opacity-100' : 'opacity-0'
           } md:mt-2 transition-opacity duration-2000 flex justify-center items-center md:justify-normal md:items-start mt-5`}
         >
-          <Button label="Get in touch" width="70%" />
+          <Button
+            label="Get in touch"
+            width="70%"
+            onClick={() => router.push('mailto:diamondnicholas154@gmail.com')}
+          />
         </div>
       </div>
       <div>

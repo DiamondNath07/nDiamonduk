@@ -52,7 +52,10 @@ const Navbar = ({ borderColor = '#929292' }) => {
         </ul>
       </div>
       <div className="hidden md:block md:cursor-pointer ">
-        <Button label="Get in touch" />
+        <Button
+          label="Get in touch"
+          onClick={() => router.push('mailto:diamondnicholas154@gmail.com')}
+        />
       </div>
       <div
         className="md:hidden"

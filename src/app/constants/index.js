@@ -4,12 +4,12 @@ export const navLinks = [
   {
     id: 3,
     name: 'Resume',
-    link: 'https://drive.google.com/file/d/16d0ygd9IyQ65V0wAom-7DzGMvnS8AIsq/view?usp=sharing',
+    link: 'https://docs.google.com/document/d/1XhsRYyLskoQaFhAOY_lbBT3fsEQzU5yee-Gy04BhdJo/edit?usp=sharing',
   },
   {
     id: 4,
     name: 'Contact',
-    link: 'https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox',
+    link: 'mailto:diamondnicholas154@gmail.com',
   },
 ];
 export const cardContent = [
