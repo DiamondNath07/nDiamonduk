@@ -43,8 +43,8 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="w-[50%]">
-            <div className="flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between">
+          <div className="">
+            <div className="flex flex-col md:flex-row items-center md:items-start justify-center gap-4 md:justify-between">
               <div className="mt-[5%] md:mt-0">
                 <h3 className="text-base text-black font-medium">
                   Case studies
@@ -56,12 +56,9 @@ const Footer = () => {
                   <li>
                     <a href="/casestudies">SwiftPoint</a>
                   </li>
-                  <li>
-                    <a href="/casestudies">Vitality Org</a>
-                  </li>
                 </ul>
               </div>
-              <div className="mt-[20%] md:mt-0">
+              {/* <div className="mt-[20%] md:mt-0">
                 <h3 className="text-base text-black font-medium">
                   Social links
                 </h3>
@@ -70,11 +67,11 @@ const Footer = () => {
                     <a href="/linkedin.com">Linkedin</a>
                   </li>
                 </ul>
-              </div>
+              </div> */}
               <div className="mt-[20%] md:mt-0 flex flex-col items-center justify-center md:justify-start md:items-start ">
                 <h3 className="text-base text-black font-medium">Contact</h3>
                 <ul className="flex flex-col mt-[2%] font-normal leading-normal text-sm">
-                  <li>diamondnicholas154@gmail.com</li>
+                  <li>diamondnicholas011@gmail.com</li>
                 </ul>
               </div>
             </div>

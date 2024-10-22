@@ -15,11 +15,11 @@ export const navLinks = [
 export const cardContent = [
   {
     id: 1,
-    companyName: 'Heritage Properties',
-    project: 'A dynamic housing system',
+    companyName: 'Swiftpoint',
+    project: 'Fintech bill payment application',
     description:
-      'The housing project offers a unique blend of modern architecture and eco-friendly design, featuring spacious layouts with smart home technology. Nestled in a prime location, it boasts stunning views, access to green spaces, and energy-efficient amenities. With its sustainable building materials and luxurious finishes, this property stands out as a perfect balance between luxury and environmental consciousness.',
-    image: './images/heriEstage.png',
+      'Created a globally trusted platform that offers seamless currency exchange, swift and secure transactions, and an intuitive user experience. We strive to provide competitive rates, robust security, and an app environment tailored to user needs, ensuring every transaction is efficient, safe, and aligned with our users best interests. Through innovation and user-focused design, we aim to set a new standard in financial services that empowers individuals to manage their transactions with confidence and ease, no matter where they are in the world.',
+    image: './images/company2.png',
     link: '/casestudies',
   },
 
@@ -34,13 +34,14 @@ export const cardContent = [
   },
   {
     id: 3,
-    companyName: 'Swiftpoint',
-    project: 'Fintech bill payment application',
+    companyName: 'Heritage Properties',
+    project: 'A dynamic housing system',
     description:
-      'Created a globally trusted platform that offers seamless currency exchange, swift and secure transactions, and an intuitive user experience. We strive to provide competitive rates, robust security, and an app environment tailored to user needs, ensuring every transaction is efficient, safe, and aligned with our users best interests. Through innovation and user-focused design, we aim to set a new standard in financial services that empowers individuals to manage their transactions with confidence and ease, no matter where they are in the world.',
-    image: './images/company2.png',
+      'The housing project offers a unique blend of modern architecture and eco-friendly design, featuring spacious layouts with smart home technology. Nestled in a prime location, it boasts stunning views, access to green spaces, and energy-efficient amenities. With its sustainable building materials and luxurious finishes, this property stands out as a perfect balance between luxury and environmental consciousness.',
+    image: './images/heriEstage.png',
     link: '/casestudies',
   },
+
   {
     id: 4,
     companyName: 'Vitality Org',
@@ -110,6 +111,22 @@ export const cardSlider = [
 export const projectCards = [
   {
     id: 1,
+    images: '/images/cardOne.png',
+    company: 'Swiftpoint',
+    metricsData: [
+      { icon: '/images/usability.png', count: '70%', description: 'usability' },
+      { icon: '/images/remark.png', count: '4.5', description: 'remark' },
+      {
+        icon: '/images/activeUser.png',
+        count: '10k',
+        description: 'active users',
+      },
+    ],
+
+    link: 'https://www.figma.com/deck/iL1Ofp5eXm5EunItQS7rRd/Swiftpoint-casestudy?node-id=1-536&node-type=slide&t=6Z9TdF5dmDQdAvJA-0&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
+  },
+  {
+    id: 2,
     images: '/images/cardThree.png',
     company: 'Talstrike',
     metricsData: [
@@ -122,10 +139,10 @@ export const projectCards = [
       },
     ],
 
-    link: 'https://www.figma.com/deck/SBpZq3x7SQfQiw9iSTvgx1/Talstrike-case-study-presentation?node-id=1-9674&node-type=slide&t=pnig65xOR9ug5LbA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
+    link: 'https://www.figma.com/deck/SBpZq3x7SQfQiw9iSTvgx1/Talstrike-case-study-presentation?node-id=1-53&node-type=slide&t=pnig65xOR9ug5LbA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
   },
   {
-    id: 2,
+    id: 3,
     images: '/images/cardTwo.png',
     company: 'Heritage Estate',
     metricsData: [
@@ -139,22 +156,5 @@ export const projectCards = [
     ],
 
     link: 'https://mern-real-estate-project.onrender.com/',
-  },
-
-  {
-    id: 3,
-    images: '/images/cardOne.png',
-    company: 'Swiftpoint',
-    metricsData: [
-      { icon: '/images/usability.png', count: '70%', description: 'usability' },
-      { icon: '/images/remark.png', count: '4.5', description: 'remark' },
-      {
-        icon: '/images/activeUser.png',
-        count: '10k',
-        description: 'active users',
-      },
-    ],
-
-    link: 'https://www.figma.com/deck/SBpZq3x7SQfQiw9iSTvgx1/Talstrike-case-study-presentation?node-id=1-9674&node-type=slide&t=pnig65xOR9ug5LbA-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1',
   },
 ];
